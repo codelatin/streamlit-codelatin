@@ -1,0 +1,43 @@
+[data-testid=stSidebar] {
+  /*background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+  background-size: cover;*/
+  background-image: linear-gradient(#fff, #c1e0e4);
+}
+
+input[type=message], input[type=email], input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  button[type=submit] {
+    background-color: #6f25cf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* Hide Streamlit Branding */
+  #MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
+
+
+  body {
+    background-image: url('img/fondo.jpg');
+    background-size: cover; /* Para asegurar que la imagen se ajuste al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
